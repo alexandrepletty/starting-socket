@@ -21,7 +21,7 @@ export class Socket {
 
 		// --- Functions
 		this.CreateUser()
-		this.ActionAdmin()
+		this.Action()
 		this.Disconnect()
 	}
 
@@ -35,8 +35,8 @@ export class Socket {
 		console.log(`@User/Connected : ${this.socketID}`)
 	}
 
-	// --- Action administration
-	private ActionAdmin() {
+	// --- Action
+	private Action() {
 		// --- Variables
 		let route = env.SOCKET_ROUTE
 

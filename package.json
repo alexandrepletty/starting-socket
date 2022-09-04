@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Started socket",
   "main": "App.js",
-  "repository": ".",
+  "repository": "git@github.com:alexandrepletty/starting-socket.git",
   "author": "Alexandre Pletty <alexandre.pletty@gmail.com>",
   "license": "MIT",
   "private": true,
